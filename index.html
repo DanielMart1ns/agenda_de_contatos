@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media-query.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <span class="material-symbols-outlined">
+            contacts
+        </span>
+        <h1>Contatos</h1>
+    </header>
+    <main>
+        <form id="formulario-contatos" autocomplete="off">
+            <input type="text" placeholder="Nome do Contato" id="nome-contato" required>
+            <input type="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx" id="tel-contato" required>
+            <button id="btn-adicionar" type="submit"><span class="material-symbols-outlined">
+                person_add
+                </span></button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Identificação</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

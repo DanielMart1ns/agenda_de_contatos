@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px){
+    input, #btn-adicionar{
+        width: 450px;
+        transition-duration: 1s;
+    }
+}
