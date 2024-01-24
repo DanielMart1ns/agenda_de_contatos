@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('#tel-contato').mask('(00)00000-0000', {placeholder: '(DD) 9XXXX-XXXX'})
+})
+
 const form = document.querySelector('form#formulario-contatos')
 var nomes = []
 var numeros = []
@@ -41,5 +45,7 @@ function inserindoDados(){
     const corpoTabela = document.querySelector('tbody')
     corpoTabela.innerHTML = dados
 }
+
+
 
 
